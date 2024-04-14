@@ -1,7 +1,12 @@
 .answer{
-    color: white;
+    text-decoration: none;
     background-color: #4A4957;
-    border-color: #58CC02;
+    border: 7px solid #58CC02;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .logo{
