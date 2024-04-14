@@ -19,8 +19,11 @@
     top: 0;
     left: 0;
     right: 0;
+    margin-bottom: 80px;
 }
 
-.logo{
-    
+.container{
+    width: 900px;
+    height: 250px;
+    background-color: #4A4957;
 }
