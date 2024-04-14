@@ -9,6 +9,18 @@
     font-size: 30px;
 }
 
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #4A4957;
+    border-radius: 20px ;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .logo{
     
 }
