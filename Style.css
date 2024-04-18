@@ -29,7 +29,7 @@
     background-color: #4A4957;
 }
 
-.text{
+.Domct{
     font-size: 50px;
     width: 50px;
     height: 50px;
@@ -47,7 +47,7 @@
     color: #89E219;
 }
 
-.Vopros{
+.fonc{
     font-weight: bold;
     color: whiTe;
     text-align: center;
@@ -56,8 +56,8 @@
     padding: 15px;
     border-radius: 25px;
     margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .ranword{
