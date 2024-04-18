@@ -10,9 +10,10 @@
 }
 
 .header{
+    font-style: Bold;
     display: flex;
     justify-content: space-evenly;
-    background-color: #1000e9;
+    background-color: #4A4957;
     border-radius: 20px ;
     padding: 15px;
     position: absolute;
@@ -26,4 +27,39 @@
     width: 900px;
     height: 250px;
     background-color: #4A4957;
+}
+
+.text{
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    -webkit-text-stroke: 1px #4C5D4F;
+    text-shadow: #a7a7a7 0px 1px;
+    font-weight: bold;
+    display: flex;
+    color: #58CC02;
+    border-color: #4C5D4F;
+    border-radius: 50px;
+}
+
+.Duo{
+    font-weight: bold;
+    color: #89E219;
+}
+
+.Vopros{
+    font-weight: bold;
+    color: whiTe;
+    text-align: center;
+    background-color: #71707E;
+    border: #89E219 20px solid;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ranword{
+    color: #A6E69B;
 }
