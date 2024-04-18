@@ -48,18 +48,21 @@
 }
 
 .fonc{
+    justify-content: space-between;
     font-weight: bold;
     color: whiTe;
     text-align: center;
     background-color: #71707E;
     border: #89E219 20px solid;
-    padding: 15px;
+    padding: 5px;
     border-radius: 25px;
-    margin-top: 40px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-top: 45px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .ranword{
     color: #A6E69B;
+    font-size: 40px;
+    text-align: center;
 }
