@@ -7,20 +7,35 @@
     border-radius: 25px;
     text-align: center;
     font-size: 30px;
+    margin-left: 0px;
+    margin-right: 50px;
+    font-weight: bold;
 }
 
-.header{
-    font-style: Bold;
+.text{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    color: #58CC02;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.logo{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+header{
     display: flex;
     justify-content: space-evenly;
+    padding: 1px;
+    border-radius: 20px;
     background-color: #4A4957;
-    border-radius: 20px ;
-    padding: 15px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin-bottom: 80px;
 }
 
 .container{
@@ -30,19 +45,15 @@
 }
 
 .Domct{
-    font-size: 50px;
-    width: 50px;
-    height: 50px;
-    -webkit-text-stroke: 1px #4C5D4F;
-    text-shadow: #a7a7a7 0px 1px;
-    font-weight: bold;
+    padding-top: 0px;
     display: flex;
-    color: #58CC02;
-    border-color: #4C5D4F;
-    border-radius: 50px;
+    align-items: center;
 }
 
 .Duo{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 40px;
     font-weight: bold;
     color: #89E219;
 }
@@ -54,9 +65,10 @@
     text-align: center;
     background-color: #71707E;
     border: #89E219 20px solid;
-    padding: 5px;
+    padding: 0px;
+    font-size: 25px;
     border-radius: 25px;
-    margin-top: 45px;
+    margin-top: 25px;
     margin-left: 250px;
     margin-right: 250px;
 }
@@ -65,4 +77,9 @@
     color: #A6E69B;
     font-size: 40px;
     text-align: center;
+}
+
+.otvetu{
+    margin-top: 50px;
+    margin-left: 350px;
 }
