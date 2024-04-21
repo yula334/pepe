@@ -17,7 +17,7 @@ class Pll{
 }
 
 
-let curquests = [new Pll("Black", "Блок", "Назад", "Чёрный"), new Pll("Table", "Таблетка", "Керамика", "Стол"), new Pll("Look", "Лук", "Закрывать", "Смотреть")]
+let curquests = [new Pll("Black", "Блок", "Назад", "Чёрный"), new Pll("Table", "Таблетка", "Керамика", "Стол"), new Pll("Look", "Лук", "Закрывать", "Смотреть"), new Pll("Parrot", "Морковка", "Пират", "Попугай"), new Pll()]
 
 let tag = 0
 
@@ -34,6 +34,15 @@ function shuffle(array) {
     }
     return array;
 }
+
+let curt = 0
+let cura = 0
+
+let tru = document.querySelector(".praw")
+let allan = document.querySelector(".otw")
+let butt = document.querySelector(".")
+
+
 for (let i = 0; i < anss.length; i += 1){ 
     anss[i].addEventListener("click", function(){ 
         if (anss[i].innerHTML == curquest.correct){ 
@@ -44,7 +53,10 @@ for (let i = 0; i < anss.length; i += 1){
                 duration: 500,
                 easing: "linear",
             })
-            
+            curt += 1
+            cura += 1
+            tru.innerHTML = curt
+            allan.innerHTML = cura
         } else { 
             anss[i].style.background = "#DC143C"  
             anime({
@@ -53,6 +65,9 @@ for (let i = 0; i < anss.length; i += 1){
                 duration: 500,
                 easing: "linear",
             })
+            cura += 1
+            tru.innerHTML = curt
+            allan.innerHTML = cura
         } 
         tag += 1
         curquest = curquests[tag]
