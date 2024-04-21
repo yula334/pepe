@@ -17,7 +17,7 @@ class Pll{
 }
 
 
-let curquests = [new Pll("Black", "Блок", "Назад", "Чёрный"), new Pll("Table", "Таблетка", "Керамика", "Стол"), new Pll("Look", "Лук", "Закрывать", "Смотреть"), new Pll("Parrot", "Морковка", "Пират", "Попугай"), new Pll("")]
+let curquests = [new Pll("Black", "Блок", "Назад", "Чёрный"), new Pll("Table", "Таблетка", "Керамика", "Стол"), new Pll("Look", "Лук", "Закрывать", "Смотреть"), new Pll("Parrot", "Морковка", "Пират", "Попугай"), new Pll("Иall", "Балл", "Звонок", "Мяч"), new Pll("Horse", "Дом", "Хорус", "Лошадь"), new Pll()]
 
 let tag = 0
 
