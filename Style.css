@@ -37,6 +37,9 @@ header {
 }
 
 .text{
+    
+       
+    -webkit-text-stroke: 3px rgb(64, 85, 224);
     font-size: 60px;
     margin-left: 90px;
     margin-right: 90px;
