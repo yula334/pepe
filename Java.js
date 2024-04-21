@@ -58,4 +58,8 @@ for (let i = 0; i < anss.length; i += 1){
         curquest = curquests[tag]
         curquest.display() 
     }) 
+<<<<<<< HEAD
 } 
+=======
+} 
+>>>>>>> dff86e785c161b6d878ca15714179f823dc10c59
