@@ -13,7 +13,8 @@
 }
 
 .text{
-    font-size: 50px;
+    -webkit-text-stroke: 4px #4C5D4F;
+    font-size: 55px;
     margin-top: 30px;
     margin-left: 90px;
     margin-right: 90px;
