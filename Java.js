@@ -17,7 +17,7 @@ class Pll{
 }
 
 
-let curquests = [new Pll("Black", "Блок", "Назад", "Чёрный"), new Pll("Table", "Таблетка", "Керамика", "Стол"), new Pll("Look", "Лук", "Закрывать", "Смотреть"), new Pll("Parrot", "Морковка", "Пират", "Попугай"), new Pll()]
+let curquests = [new Pll("Black", "Блок", "Назад", "Чёрный"), new Pll("Table", "Таблетка", "Керамика", "Стол"), new Pll("Look", "Лук", "Закрывать", "Смотреть"), new Pll("Parrot", "Морковка", "Пират", "Попугай"), new Pll("Ball", "Балл", "Звонок", "Мяч"), new Pll("Horse", "Дом", "Хорус", "Лошадь"), new Pll("Ship", "Щип", "Прыгать", "Овца"), new Pll("Kids", "Кеды", "Курица", "Дети"), new Pll("True", "Попытка", "Триугольник", "Правда"), new Pll("Cucumber", "Кукумбер", "Петрушка", "Огурец"), new Pll("Book", "Пугать", "Бамбук", "Книга"), new Pll("Tree", "Три", "Пилить", "Дерево")]
 
 let tag = 0
 
@@ -35,12 +35,11 @@ function shuffle(array) {
     return array;
 }
 
-let curt = 0
-let cura = 0
+let curtrue = 0
+let curall = 0
 
 let tru = document.querySelector(".praw")
 let allan = document.querySelector(".otw")
-let butt = document.querySelector(".")
 
 
 for (let i = 0; i < anss.length; i += 1){ 
@@ -53,11 +52,11 @@ for (let i = 0; i < anss.length; i += 1){
                 duration: 500,
                 easing: "linear",
             })
-            curt += 1
-            cura += 1
-            tru.innerHTML = curt
-            allan.innerHTML = cura
-        } else { 
+            curtrue += 1
+            curall += 1
+            tru.innerHTML = curtrue
+            allan.innerHTML = curall
+        } else {
             anss[i].style.background = "#DC143C"  
             anime({
                 targets: anss[i],
@@ -65,12 +64,19 @@ for (let i = 0; i < anss.length; i += 1){
                 duration: 500,
                 easing: "linear",
             })
-            cura += 1
-            tru.innerHTML = curt
-            allan.innerHTML = cura
+            curall += 1
+            allan.innerHTML = curall
         } 
         tag += 1
-        curquest = curquests[tag]
-        curquest.display() 
+        if (tag < curquests.length){
+            curquest = curquests[tag]
+            curquest.display()
+        } else{
+            alert("Вопросы закончилиь, да")
+            setTimeout(function() {
+                tru.innerHTML = 0
+                allan.innerHTML = 0
+            }, 5000)
+        }
     }) 
 }
