@@ -17,7 +17,7 @@ class Pll{
 }
 
 
-let curquests = [new Pll("Black", "Блок", "Назад", "Чёрный"), new Pll("Table", "Таблетка", "Керамика", "Стол"), new Pll("Look", "Лук", "Закрывать", "Смотреть"), new Pll("Parrot", "Морковка", "Пират", "Попугай"), new Pll("Иall", "Балл", "Звонок", "Мяч"), new Pll("Horse", "Дом", "Хорус", "Лошадь"), new Pll()]
+let curquests = [new Pll("Black", "Блок", "Назад", "Чёрный"), new Pll("Table", "Таблетка", "Керамика", "Стол"), new Pll("Look", "Лук", "Закрывать", "Смотреть"), new Pll("Parrot", "Морковка", "Пират", "Попугай"), new Pll("Иall", "Балл", "Звонок", "Мяч"), new Pll("Horse", "Дом", "Хорус", "Лошадь"), new Pll("Ship", "Щип", "Прыгать", "Овца"), new Pll("Kids", "Кеды", "Курица", "Дети"), new Pll("True", "Попытка", "Триугольник", "Правда")]
 
 let tag = 0
 
@@ -68,7 +68,15 @@ for (let i = 0; i < anss.length; i += 1){
             allan.innerHTML = curall
         } 
         tag += 1
-        curquest = curquests[tag]
-        curquest.display() 
+        if (tag < curquests.length){
+            curquest = curquests[tag]
+            curquest.display()
+        } else{
+            alert("Вопросы закончилиь, да")
+            setTimeout(function() {
+                tru.innerHTML = 0
+                allan.innerHTML = 0
+            }, 5000)
+        }
     }) 
 }
