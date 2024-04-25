@@ -87,33 +87,32 @@ header{
 }
 
 .otw{
-    margin-left: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 27px;
-    width: 150px;
+    width: 200px;
     height: 50px;
     border-radius: 7px;
     padding: 7px 10px;
     text-align: center;
     font-weight: bold;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     background-color: #7B7D86;
 }
 
 .praw{
     position: absolute;
-    z-index: 1;
-    top: 13px;
-    right: 80px;
+    z-index: 2;
+    bottom: -8px;
+    right: 92px;
     font-weight: bold;
     color: rgb(93, 105, 115);
     font-size: 50px;
 }
 
 .niz{
-    margin-top: 25px;
+    padding-left: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,4 +120,19 @@ header{
 
 .kk{
     position: relative;
+}
+
+footer{
+    background-color:#89E219;
+    padding: 0px;
+    border-radius: 15px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.star{
+    z-index: 1;
+    bottom: -17px;
+    right: 10px;
+    position: absolute;
 }
